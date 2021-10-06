@@ -3,7 +3,6 @@ kind: K8sAllowedRepos
 metadata:
   name: allowed-repos
 spec:
-  enforcementAction: dryrun
   match:
     namespaces:
       - "cloudbees-ci"
